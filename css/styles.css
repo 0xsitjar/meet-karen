@@ -1,0 +1,223 @@
+/*** HTML ELEMENT SECTION ***/
+
+a {
+    color: #472D2D;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFFAF5;
+}
+
+h1 {
+    margin: 10px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #9E7676;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #886F6F;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #A7727D;
+}
+
+hr {
+    width: 3%;
+    border-width: 5px;
+    border-style: dotted none none;
+    border-color: #D0B8A8;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/*** NAVIGATION MENU ***/
+
+
+
+/* #nav-menu .navbar {
+    background-color: #704F4F !important;
+}
+
+#nav-menu .navbar-nav .nav-link {
+    color: whitesmoke;
+    padding-left: 40px; 
+    padding-right: 40px;
+}
+
+#nav-menu .navbar-nav .nav-link:hover {
+    color: #D9C6B7;
+}
+
+#nav-menu .navbar-collapse {
+    justify-content: center;
+} 
+
+@media (max-width: 991px) {
+    #nav-menu .navbar-collapse {
+        justify-content: center;
+        text-align: left;
+    }
+} */
+
+
+#nav-menu .navbar {
+    background-color: #704F4F !important; /* Ensures the navbar has the desired background color */
+}
+
+#nav-menu .navbar-nav .nav-link {
+    color: whitesmoke; /* Sets the text color of the nav links */
+    padding: 10px 20px; /* Adjusts padding for better touch targets on small screens */
+}
+
+#nav-menu .navbar-nav .nav-link:hover {
+    color: #D9C6B7; /* Changes the text color on hover */
+}
+
+/* Center the navbar items for larger screens */
+#nav-menu .navbar-collapse {
+    justify-content: center; /* Centers navbar items */
+} 
+
+/* Adjustments for smaller screens */
+@media (max-width: 991px) {
+    #nav-menu .navbar-collapse {
+        justify-content: flex-start; /* Aligns navbar items to the left */
+        text-align: left; /* Ensures any inline text elements inside collapse are left-aligned */
+    }
+
+    #nav-menu .navbar-toggler {
+        margin-right: auto; /* Aligns the toggle button to the left */
+    }
+
+    #nav-menu .navbar-nav {
+        flex-direction: column; /* Stacks the nav items vertically */
+        width: 100%; /* Makes the nav items full width */
+    }
+
+    #nav-menu .navbar-nav .nav-link {
+        text-align: left; /* Aligns the text of the nav links to the left */
+        padding-left: 15px; /* Reduces left padding for more space efficiency */
+        padding-right: 15px; /* Reduces right padding for more space efficiency */
+    }
+
+    #nav-menu .navbar-nav .nav-link:hover {
+        color: #D9C6B7; /* Changes the text color on hover */
+    }
+
+}
+/*** HEADER SECTION ***/
+
+#page-header {
+    background-color: #F8EDE3;
+    position: relative;
+    padding: 80px 0 100px;
+}
+
+.my-short-bio {
+    margin-top: 0;
+}
+
+/*** ABOUT ME SECTION ***/
+
+#about-me {
+    margin: 100px 0;
+    background-color:#FFFAF5;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+/*** MY SKILLS SECTION ***/
+
+.my-skills-padding {
+    padding: 1rem 12.5%;
+}
+
+/*** CONTACT SECTION ***/
+
+.contact-btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #704F4F;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  .contact-btn:hover {
+    background: #A77979;
+    text-decoration: none;
+    color: white;
+  }
+
+  .contact-description {
+    margin-bottom: 50px;
+    width: 40%;
+    margin: 40px auto;
+}
+
+ /*** PAGE FOOTER SECTION ***/ 
+
+#page-footer {
+    background-color: #D9C6B7;
+    margin-top: 80px;
+    padding: 30px 0 5px;
+}
+
+.copyright {
+    margin-top: 15px;
+    color: #F8EDE3;
+    font-size: 0.75rem;
+    padding: 15px 0 10px;
+}
+
+.footer-link {
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: #886F6F;
+}
+
+/*** IMAGE CLASS SECTION ***/
+
+.abstract-pic {
+    height: 400px;
+    width: 400px;
+}
+
+.graphic-pic {
+
+}
+
+.profile-pic {
+    height: 300px;
+    width: 300px;
+}
+
+.webdev-pic {
+
+}
+
